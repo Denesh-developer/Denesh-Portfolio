@@ -1,0 +1,20 @@
+<svg preserveAspectRatio="none" width="100%" height="100%" overflow="visible" style="display: block;" viewBox="0 0 90.4213 54.6098" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Note">
+<g id="Paper" filter="url(#filter0_d_0_56)">
+<path d="M86.4213 0.28234C79.3391 0.237166 30.285 0.0752907 6.64328 0C5.98447 2.75564 5.95702 30.888 6.02564 44.6098C14.9196 44.6098 63.0541 44.5721 86.0095 44.5533C85.7625 40.3521 86.1811 13.2888 86.4213 0.28234Z" fill="var(--fill-0, #7AA88D)"/>
+</g>
+<path id="Glue" opacity="0.02" d="M86.4214 0.293456C79.321 0.284431 30.3477 0.0150411 6.64536 0C6.41307 2.3717 6.30943 5.26445 6.20632 8.91184C15.1231 8.91184 63.2008 8.92504 86.2152 8.92128C86.3183 6.35007 86.3184 2.89623 86.4214 0.293456Z" fill="var(--fill-0, #222222)"/>
+</g>
+<defs>
+<filter id="filter0_d_0_56" x="3.3156e-09" y="0" width="90.4213" height="54.6098" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dx="-1" dy="5"/>
+<feGaussianBlur stdDeviation="2.5"/>
+<feComposite in2="hardAlpha" operator="out"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.3 0"/>
+<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_0_56"/>
+<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_0_56" result="shape"/>
+</filter>
+</defs>
+</svg>
