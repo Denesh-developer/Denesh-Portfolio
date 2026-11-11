@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <!-- "One game before you go" sticker: a taped paper note with a mid-game
+       hand-drawn tic-tac-toe (X = ink, O = brand green). No text on purpose:
+       the board's hover label names it, and <img> SVGs can't use page fonts. -->
+  <g transform="rotate(-5 120 120)">
+    <rect x="30" y="26" width="180" height="188" rx="6" fill="#fbf8f0" stroke="rgba(0,0,0,0.09)" stroke-width="1.5"/>
+    <g fill="none" stroke="#6b6b6b" stroke-width="4" stroke-linecap="round">
+      <path d="M 99 58 C 98 92, 99.5 132, 97.8 188"/>
+      <path d="M 141 57 C 142.4 96, 140.5 138, 141.8 189"/>
+      <path d="M 55 101 C 92 102.4, 138 100.2, 185 101.8"/>
+      <path d="M 54 144.5 C 96 143.2, 140 145.6, 186 144"/>
+    </g>
+    <!-- X: top-left -->
+    <g fill="none" stroke="#1e1e1e" stroke-width="4.6" stroke-linecap="round" transform="rotate(-4 76.7 79.7)">
+      <path d="M 65 68 Q 77 79 88.5 91.5"/>
+      <path d="M 88 67.5 Q 77 80 65.5 91"/>
+    </g>
+    <!-- O: top-right -->
+    <path fill="none" stroke="#7aa88d" stroke-width="4.6" stroke-linecap="round" transform="rotate(6 163.3 79.7)"
+      d="M 164.5 67 C 172 67, 176.5 73, 176 80 C 175.5 87.5, 170 93, 163 92.5 C 155.5 92, 150.5 86.5, 151 79.5 C 151.5 72, 156.5 66.5, 166 68"/>
+    <!-- O: centre -->
+    <path fill="none" stroke="#7aa88d" stroke-width="4.6" stroke-linecap="round" transform="rotate(-8 120 123)"
+      d="M 121 110.5 C 128.5 110.5, 133 116, 132.6 123.2 C 132.2 130.8, 126.8 136.2, 119.6 135.8 C 112.2 135.4, 107 130, 107.4 122.8 C 107.8 115.4, 113 109.8, 122.5 111.5"/>
+    <!-- X: bottom-right -->
+    <g fill="none" stroke="#1e1e1e" stroke-width="4.6" stroke-linecap="round" transform="rotate(5 163.3 166.3)">
+      <path d="M 151.5 154.5 Q 163 166 175 178"/>
+      <path d="M 175 154 Q 163.5 166.5 151.5 178.5"/>
+    </g>
+    <!-- washi tape -->
+    <rect x="88" y="14" width="64" height="20" rx="1.5" fill="#7aa88d" opacity="0.55" transform="rotate(3 120 24)"/>
+  </g>
+</svg>

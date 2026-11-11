@@ -1,0 +1,468 @@
+{
+  "$comment": "Deneshraja Nedunchezhian portfolio projects. Real case studies based on deployed projects.",
+  "projects": [
+    {
+      "id": "cheyyarhub",
+      "index": "01",
+      "period": "2024 – 2025",
+      "title": "CheyyarHub",
+      "description": "Hyper-local social network with Google Authentication, live feeds, stories, push notifications, and companion Android client.",
+      "category": "Full-Stack & Mobile",
+      "tags": [
+        "React.js",
+        "Firebase",
+        "Android (Java)",
+        "Cloudinary"
+      ],
+      "highlight": "#00ff9c",
+      "note": "Hyper-local social platform connecting residents with real-time news and community updates.",
+      "featured": true,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "Building CheyyarHub: A Community Social Network",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role & Scope",
+            "value": "Lead Full-Stack Developer & Android Engineer"
+          },
+          {
+            "label": "Key Tech",
+            "value": "React.js, Firebase Auth & Firestore, Cloudinary, Java"
+          },
+          {
+            "label": "Platforms",
+            "value": "Responsive Web Application & Native Android APK"
+          },
+          {
+            "label": "Live Demo",
+            "value": "https://cheyyar-hub.vercel.app"
+          }
+        ],
+        "intro": "CheyyarHub was conceived to solve the lack of dedicated local communication channels in Cheyyar. Local residents previously had no single modern portal for community news, business happenings, and real-time social discussions. I developed CheyyarHub as a full-featured web and mobile platform.",
+        "goal": "Deliver a fast, responsive, and secure hyper-local social hub supporting Google sign-in, live feed broadcasts, stories, and multimedia posts on web and Android.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Hyper-local engagement at scale",
+            "body": "Traditional social platforms prioritize global algorithmic trends, drowning out town-level announcements and local civic discussions. CheyyarHub is tailored exclusively around neighborhood updates, user stories, and localized interaction."
+          },
+          {
+            "type": "cards",
+            "variant": "challenge",
+            "cards": [
+              {
+                "title": "Real-time feed sync across web & mobile",
+                "body": "Ensuring post updates, likes, and comment threads synchronize instantly between web browsers and Android clients."
+              },
+              {
+                "title": "Optimized multimedia uploads",
+                "body": "Compressing and delivering user photos and stories swiftly on variable 4G/5G mobile networks."
+              },
+              {
+                "title": "Seamless authentication flow",
+                "body": "Providing frictionless Google Authentication on both web and native Android environments."
+              }
+            ]
+          },
+          {
+            "type": "insight",
+            "body": "Hyper-local platforms thrive when onboarding requires minimal friction and content updates deliver immediate neighborhood relevance."
+          },
+          {
+            "type": "solution",
+            "label": "Frontend",
+            "title": "React.js & Tailwind CSS Interface",
+            "body": "Constructed an intuitive, high-speed single page application with modular components, dark/light aesthetics, and fluid layout responsiveness."
+          },
+          {
+            "type": "solution",
+            "label": "Backend & Cloud",
+            "title": "Firebase Firestore & Cloudinary Media Pipeline",
+            "body": "Implemented Google OAuth, real-time Firestore listeners for feed updates, and Cloudinary CDN for automated image optimization and transformation."
+          },
+          {
+            "type": "solution",
+            "label": "Mobile Client",
+            "title": "Native Android Companion App",
+            "body": "Engineered an Android companion application in Java with Android Studio, incorporating native notifications and offline-friendly view caching."
+          },
+          {
+            "type": "cards",
+            "variant": "outcome",
+            "heading": "Impact & Results",
+            "body": "CheyyarHub is actively deployed on Vercel and utilized by local community members.",
+            "cards": [
+              {
+                "title": "Production Deployment",
+                "body": "Deployed to high-availability infrastructure on Vercel with automated GitHub CI/CD."
+              },
+              {
+                "title": "Multi-Platform Experience",
+                "body": "Synchronized user experience across desktop web, mobile web, and native Android devices."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheyyar-3d",
+      "index": "02",
+      "period": "2024 – 2025",
+      "title": "Cheyyar 3D Town",
+      "description": "Browser-based 3D multiplayer game of Cheyyar with iconic landmarks, drivable vehicles, collectible coins, and real-time multiplayer.",
+      "category": "3D Web & Multiplayer Game",
+      "tags": [
+        "Three.js",
+        "JavaScript",
+        "Firebase",
+        "HTML5 / CSS3"
+      ],
+      "highlight": "#ffb703",
+      "note": "Explorable 3D miniature town game with interactive vehicles, quests, and real-time multiplayer.",
+      "featured": true,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "Cheyyar 3D Town (Namma Cheyyar): Browser-Based 3D Multiplayer Game",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role & Scope",
+            "value": "Creator & 3D Game Developer"
+          },
+          {
+            "label": "Key Tech",
+            "value": "Three.js, JavaScript, HTML5, CSS3, Firebase Realtime Database"
+          },
+          {
+            "label": "Platforms",
+            "value": "Browser Web Game (Mobile & Desktop Responsive)"
+          },
+          {
+            "label": "Live Demo",
+            "value": "https://cheyyar-3d.vercel.app/"
+          },
+          {
+            "label": "GitHub",
+            "value": "https://github.com/Denesh-developer/Cheyyar-3D"
+          }
+        ],
+        "intro": "Cheyyar 3D Town (Namma Cheyyar) is an explorable 3D open-world web game inspired by the architectural heritage and iconic spots of Cheyyar town. Built to run directly in any web browser without plugins or downloads, it features interactive drivable vehicles, collectible points, and online multiplayer synchronization.",
+        "goal": "Build an engaging, ultra-lightweight 3D miniature multiplayer exploration game accessible on mobile touchscreens and desktop browsers with 60 FPS performance.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Bringing Cheyyar Town to Life in 3D",
+            "body": "Modeled after the landmarks of Cheyyar—including the bus stand, Vedapureeswarar temple gopuram, and an I-MAX theatre lobby. The game immerses players into town streets where they can explore, complete community quests, and interact with fellow town residents in real time."
+          },
+          {
+            "type": "cards",
+            "variant": "challenge",
+            "heading": "Core Engineering Challenges",
+            "cards": [
+              {
+                "title": "Lightweight 3D rendering in browser",
+                "body": "Delivering smooth 60 FPS graphics and quick load times across budget mobile devices and web browsers."
+              },
+              {
+                "title": "Low-latency multiplayer sync",
+                "body": "Synchronizing player movement coordinates, avatar states, and interactions smoothly with minimal network overhead."
+              },
+              {
+                "title": "Responsive dual-touch controls",
+                "body": "Implementing a virtual on-screen joystick and action buttons for seamless mobile gameplay alongside keyboard WASD controls."
+              }
+            ]
+          },
+          {
+            "type": "insight",
+            "body": "Procedural 3D modeling and efficient state synchronization deliver console-like immersion on the web with near-instant load times."
+          },
+          {
+            "type": "solution",
+            "label": "Town Architecture & World",
+            "title": "Explorable 3D Model with Town Landmarks",
+            "body": "Engineered an explorable 3D town world featuring key spots like the Cheyyar bus stand, river bridge, and I-MAX cinema lobby with interactive ticketing, box office, screens, and seating."
+          },
+          {
+            "type": "solution",
+            "label": "Gameplay & Mechanics",
+            "title": "Drivable Vehicles & Collectible Coins",
+            "body": "Programmed realistic steering physics for town share autos and buses, collectible gold coins, points system, and horn sound effects powered by the Web Audio API."
+          },
+          {
+            "type": "solution",
+            "label": "Multiplayer Backend",
+            "title": "Firebase Realtime Database & Anonymous Auth",
+            "body": "Implemented instantaneous multiplayer synchronization using Firebase Realtime Database with anonymous authentication, allowing players to see and interact with each other with zero sign-up barrier."
+          },
+          {
+            "type": "cards",
+            "variant": "outcome",
+            "heading": "Key Achievements",
+            "body": "Shipped as a live web application deployed on Vercel with open-source code on GitHub.",
+            "cards": [
+              {
+                "title": "Instant Browser Play",
+                "body": "Zero install friction — fully playable across mobile smartphones and desktop computers via any modern browser."
+              },
+              {
+                "title": "Live Multiplayer Experience",
+                "body": "Successfully synchronized live player sessions, chat gestures, and town exploration leaderboard points."
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "cheyyarbus",
+      "index": "03",
+      "period": "2024 – 2025",
+      "title": "CheyyarBus",
+      "description": "Local bus timing and route app for Cheyyar with departures board, route tracking, and voice input, shipped as Web App and Android APK.",
+      "category": "Web & Android",
+      "tags": [
+        "JavaScript",
+        "Firebase",
+        "Android (Java)"
+      ],
+      "highlight": "#12b86f",
+      "note": "Public transit departures and routes tracking for regional commuters.",
+      "featured": true,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "CheyyarBus: Digitizing Public Transit Departures",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role & Scope",
+            "value": "Creator & Android/Web Engineer"
+          },
+          {
+            "label": "Key Tech",
+            "value": "JavaScript, Firebase, Java (Android Studio), Web Speech API"
+          },
+          {
+            "label": "Platform",
+            "value": "Web Application & Native Android APK"
+          },
+          {
+            "label": "Live Demo",
+            "value": "https://cheyyar-bus.vercel.app/"
+          }
+        ],
+        "intro": "Commuters in semi-urban regions frequently struggle with unpredictable bus timetables and lack of centralized transit information. CheyyarBus delivers a live departures board, route finder, and speech recognition input to help passengers plan their journeys efficiently.",
+        "goal": "Provide reliable, searchable departure times and stops information across regional routes connecting Cheyyar to major towns and cities.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Democratizing Transit Schedules",
+            "body": "Bus timings were previously scattered across physical bus station boards or word of mouth. CheyyarBus turned this data into an accessible digital tool available on any mobile phone."
+          },
+          {
+            "type": "cards",
+            "variant": "challenge",
+            "cards": [
+              {
+                "title": "Rapid route search under low bandwidth",
+                "body": "Commuters checking schedules on the road need instantaneous search results without heavy payloads."
+              },
+              {
+                "title": "Voice search accessibility",
+                "body": "Enabling commuters to speak their destination in Tamil or English to quickly locate matching departures."
+              },
+              {
+                "title": "In-app update distribution",
+                "body": "Shipping Android APK updates directly to users with automated version checks."
+              }
+            ]
+          },
+          {
+            "type": "solution",
+            "label": "Transit Engine",
+            "title": "Real-time Timetable & Departure Calculations",
+            "body": "Implemented algorithmic route matching calculating countdowns to next departures, intermediate station stops, and express versus local timings."
+          },
+          {
+            "type": "solution",
+            "label": "Speech Interface",
+            "title": "Voice-Assisted Search",
+            "body": "Integrated the Web Speech API and native Android speech recognizer for hands-free voice destination queries."
+          },
+          {
+            "type": "solution",
+            "label": "Native APK",
+            "title": "Android Application with In-App Updater",
+            "body": "Built a clean Android APK that checks Firebase version manifests on startup to notify users when new schedule updates are released."
+          }
+        ]
+      }
+    },
+    {
+      "id": "matrix-portfolio",
+      "index": "04",
+      "period": "2025",
+      "title": "Personal Terminal Portfolio",
+      "description": "Personal developer portfolio featuring terminal interactivity, customized Matrix animation, smooth layout reveals, and production deployment.",
+      "category": "Frontend Engineering",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "Canvas API"
+      ],
+      "highlight": "#00ff9c",
+      "note": "Custom cyber/terminal themed portfolio with interactive canvas rain.",
+      "featured": true,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "Crafting a Hacker-Themed Developer Experience",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role & Scope",
+            "value": "Frontend Designer & Developer"
+          },
+          {
+            "label": "Key Tech",
+            "value": "HTML5, CSS3, JavaScript, Canvas API"
+          },
+          {
+            "label": "Live Demo",
+            "value": "https://denesh-developer.github.io/Portfolio/"
+          },
+          {
+            "label": "Repository",
+            "value": "https://github.com/Denesh-developer/Portfolio"
+          }
+        ],
+        "intro": "A distinct digital identity reflecting developer craft, system administration background, and command-line efficiency. Engineered with lightweight vanilla web standards for sub-second loading.",
+        "goal": "Build an engaging developer showcase featuring custom animated Matrix rain, interactive skill filters, preloader animation, and responsive layout reveals.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Lightweight Animation & Precision Layouts",
+            "body": "By writing custom HTML5 Canvas routines instead of loading bulky 3D or heavy script libraries, the page achieves 60fps animations with minimal battery impact on mobile devices."
+          },
+          {
+            "type": "solution",
+            "label": "Canvas Engine",
+            "title": "Matrix Digital Rain Canvas",
+            "body": "Custom JavaScript rendering katakana and binary stream characters with decay fade opacity and viewport resize responsiveness."
+          },
+          {
+            "type": "solution",
+            "label": "UX Motion",
+            "title": "Intersection Observer Scroll Reveals",
+            "body": "Smooth component entrance animations utilizing the native IntersectionObserver API for zero-lag performance."
+          }
+        ]
+      }
+    },
+    {
+      "id": "hacktech",
+      "index": "05",
+      "period": "2024",
+      "title": "HackTech Gadgets Store",
+      "description": "E-commerce platform featuring complete storefront catalog, shopping cart, customer auth, and admin inventory dashboard.",
+      "category": "Full-Stack Web",
+      "tags": [
+        "PHP",
+        "MySQL",
+        "JavaScript",
+        "XAMPP"
+      ],
+      "highlight": "#fb7a24",
+      "note": "Full-stack transactional web store with relational database architecture.",
+      "featured": false,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "HackTech: E-Commerce & Inventory Management",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role & Scope",
+            "value": "Full-Stack Backend & Frontend"
+          },
+          {
+            "label": "Tech Stack",
+            "value": "PHP, MySQL, Apache, JavaScript"
+          },
+          {
+            "label": "Source Code",
+            "value": "https://github.com/Denesh-developer/hacktech"
+          },
+          {
+            "label": "Scope",
+            "value": "Storefront, Cart & Admin Dashboard"
+          }
+        ],
+        "intro": "Built to understand full-cycle transactional web systems, HackTech provides an online catalog for gadgets and accessories with relational SQL data schemas.",
+        "goal": "Design a complete end-to-end shopping platform with customer cart sessions and protected admin inventory controls.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Relational Architecture & Session Handling",
+            "body": "Structured MySQL schemas for products, categories, orders, and customer accounts with secure password hashing and session tokens."
+          },
+          {
+            "type": "solution",
+            "label": "Admin Suite",
+            "title": "Inventory & Order Control",
+            "body": "Provided administrators with capabilities to manage stock quantities, upload product imagery, and review incoming orders."
+          }
+        ]
+      }
+    },
+    {
+      "id": "event-management",
+      "index": "06",
+      "period": "2024",
+      "title": "Event Management System",
+      "description": "Clean responsive platform displaying interactive schedule details with semantic markup and flexible CSS layouts.",
+      "category": "Frontend Design",
+      "tags": [
+        "HTML5",
+        "CSS3",
+        "Flexbox"
+      ],
+      "highlight": "#64748b",
+      "note": "Interactive schedule layout and responsive event showcase.",
+      "featured": false,
+      "placeholder": false,
+      "caseStudy": {
+        "title": "Event Schedule & Registration Interface",
+        "hero": [],
+        "meta": [
+          {
+            "label": "Role",
+            "value": "Frontend Designer"
+          },
+          {
+            "label": "Technologies",
+            "value": "HTML5, CSS3, Flexbox, JavaScript"
+          },
+          {
+            "label": "Live Demo",
+            "value": "https://denesh-developer.github.io/Event-Management/"
+          },
+          {
+            "label": "Repository",
+            "value": "https://github.com/Denesh-developer/Event-Management"
+          }
+        ],
+        "intro": "A focused frontend project demonstrating fluid responsive design, accessible schedule tables, and cross-browser CSS formatting.",
+        "goal": "Present event agendas, keynote speakers, and session tracks with high clarity across devices.",
+        "blocks": [
+          {
+            "type": "section",
+            "heading": "Semantic & Accessible Layouts",
+            "body": "Employed modern Flexbox grids and semantic sectioning to ensure readability and easy navigation on mobile viewports."
+          }
+        ]
+      }
+    }
+  ]
+}

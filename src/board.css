@@ -1,0 +1,322 @@
+/* ==========================================================================
+   Tailwind CSS v4 entry.
+   Preflight is deliberately NOT imported — the project ships its own reset
+   (see `@layer base` below). Skipping Preflight keeps behaviour identical to
+   the pre-Tailwind design (no surprise base-element resets).
+   ========================================================================== */
+@layer theme, base, components, utilities;
+@import 'tailwindcss/theme.css' layer(theme);
+@import 'tailwindcss/utilities.css' layer(utilities);
+
+/* Design tokens → utilities. Values mirror the original declarations, so e.g.
+   `font-satoshi`, `font-aeonik`, `font-inter`, `bg-brand`/`text-brand`/
+   `border-brand`, `animate-marquee`, and `animate-idle` reproduce the CSS they
+   replace. */
+@theme {
+  --font-satoshi: 'Satoshi', system-ui, sans-serif;
+  --font-aeonik: 'Aeonik', 'Satoshi', sans-serif;
+  --font-inter: 'Inter', 'Satoshi', system-ui, sans-serif;
+  --font-caveat: 'Caveat', cursive;
+  --font-dosis: 'Dosis', sans-serif;
+  --font-edu: 'Edu SA Beginner', cursive;
+  --font-baloo: 'Baloo 2', 'Satoshi', cursive;
+  --font-instrument: 'Instrument Serif', Georgia, 'Times New Roman', serif;
+  --color-brand: #7aa88d;
+  --animate-marquee: about-marquee 24s linear infinite;
+  --animate-idle: idle-bob 5s ease-in-out infinite;
+  --animate-idle-fast: idle-bob 0.5s ease-in-out infinite;
+  --animate-bounce-once: item-bounce 0.45s ease;
+}
+
+/* Hide the scrollbar while keeping the element scrollable (About card). */
+@utility scrollbar-hidden {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  &::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+    display: none;
+  }
+}
+
+/* ---------- Aeonik (trial) — the hero typeface from the Figma design ---------- */
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Aeonik';
+  src: url('/fonts/AeonikTRIAL-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+/* ---------- reset (wrapped in @layer base so Tailwind utilities win) ---------- */
+@layer base {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Preflight is skipped, so restore just the border default it normally sets:
+       without this, a single-side utility like `border-t` leaves the other three
+       sides at the browser default `medium` width, drawing an unwanted full box. */
+    border-width: 0;
+    border-style: solid;
+  }
+
+  html,
+  body,
+  #root {
+    height: 100%;
+  }
+
+  body {
+    overflow: hidden; /* the board owns navigation; the page never scrolls */
+    overscroll-behavior: none;
+    background: #040806;
+    font-family: 'Satoshi', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    color: #e8f5ee;
+  }
+
+  button {
+    font-family: inherit;
+    /* Neutralize default browser button chrome (Preflight is intentionally not
+       imported). Utility classes (bg-*, border-*) still override these. */
+    background: transparent;
+    border: 0;
+    color: inherit;
+  }
+
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+  }
+}
+
+/* ==========================================================================
+   Marquee keyframes + the irreducible CSS below: the handful of things a
+   utility can't express (feature queries, attr() content, a multi-gradient
+   background repositioned by JS, a library-generated class, @keyframes).
+   Every other style in the app is authored as Tailwind utilities in the
+   components.
+   ========================================================================== */
+
+/* Backs `animate-marquee` (About skills strip). */
+@keyframes about-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+/* Backs `animate-idle` / `animate-idle-fast` (sticker idle bob) and
+   `animate-bounce-once` (hover bounce) used by BoardItem. */
+@keyframes idle-bob {
+  0%,
+  100% {
+    translate: 0 0;
+  }
+  50% {
+    translate: 0 -6px;
+  }
+}
+@keyframes item-bounce {
+  0% {
+    translate: 0 0;
+  }
+  30% {
+    translate: 0 -12px;
+  }
+  55% {
+    translate: 0 0;
+  }
+  72% {
+    translate: 0 -5px;
+  }
+  100% {
+    translate: 0 0;
+  }
+}
+
+/* ---------- Denesh's DJ Booth ---------- */
+/* Equalizer bars on the now-playing row (SongRow). */
+@keyframes dj-eq {
+  0%,
+  100% {
+    transform: scaleY(0.4);
+  }
+  50% {
+    transform: scaleY(1);
+  }
+}
+
+/* Minimal range sliders (seek + volume). A native <input type=range> can't be
+   styled with utilities alone (vendor pseudo-elements), so it lives here. */
+.dj-range {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+}
+.dj-range::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(43, 42, 40, 0.16);
+}
+.dj-range::-moz-range-track {
+  height: 4px;
+  border-radius: 999px;
+  background: rgba(43, 42, 40, 0.16);
+}
+.dj-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 13px;
+  height: 13px;
+  margin-top: -4.5px;
+  border-radius: 50%;
+  background: #2b2a28;
+  cursor: pointer;
+  transition: transform 0.12s ease;
+}
+.dj-range::-moz-range-thumb {
+  width: 13px;
+  height: 13px;
+  border: 0;
+  border-radius: 50%;
+  background: #2b2a28;
+  cursor: pointer;
+}
+.dj-range:hover::-webkit-slider-thumb {
+  transform: scale(1.15);
+}
+.dj-range:focus-visible::-webkit-slider-thumb {
+  outline: 2px solid #7aa88d;
+  outline-offset: 2px;
+}
+.dj-range:disabled::-webkit-slider-thumb {
+  background: #b3a98f;
+  cursor: default;
+}
+
+/* Infinite grid background on the fixed viewport. JS (BoardViewport.updateGrid)
+   syncs background-position/size to the board transform so the grid pans and
+   zooms with the content. Layout (fixed / inset / size / overflow) is authored
+   as utilities; `.board-viewport` stays as a hook only for this background. */
+.board-viewport {
+  background-color: #040806;
+  background-image:
+    linear-gradient(to right, rgba(0, 255, 156, 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 255, 156, 0.08) 1px, transparent 1px),
+    linear-gradient(to right, rgba(0, 255, 156, 0.16) 1.5px, transparent 1.5px),
+    linear-gradient(to bottom, rgba(0, 255, 156, 0.16) 1.5px, transparent 1.5px);
+  background-size: 16px 16px, 16px 16px, 80px 80px, 80px 80px;
+}
+
+/* react-zoom-pan-pinch's generated wrapper — sized to the viewport. */
+.react-transform-wrapper {
+  width: 100vw !important;
+  height: 100vh !important;
+}
+
+/* Dock button tooltip — content: attr(data-tip) is not expressible as a utility.
+   `.dock-btn` is kept on the buttons purely as a hook for this ::after. */
+.dock-btn::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 10px);
+  transform: translateX(-50%);
+  background: #111;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.15s ease;
+}
+.dock-btn:hover::after,
+.dock-btn:focus-visible::after {
+  opacity: 1;
+}
+
+/* About modal: progressive-enhancement fallbacks. Feature queries (@supports)
+   can't be utilities. `.about-overlay` / `.about-photo__glass` stay on their
+   elements only as hooks here; all visible styling lives in utilities. */
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  .about-overlay {
+    background: rgba(250, 250, 248, 0.66);
+  }
+  .about-photo__glass {
+    background: #adadac33;
+  }
+}
+
+/* ---------- "On repeat." (vinyl wall music player) ---------- */
+/* The record surface: fine concentric grooves + a darker run-in/run-out band.
+   Painted here because it's a stack of gradients (not utility-expressible). */
+@keyframes or-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.or-grooves {
+  background:
+    radial-gradient(circle at 50% 50%, rgba(0, 0, 0, 0.55) 0 20.5%, transparent 21%, transparent 95.5%, rgba(0, 0, 0, 0.6) 100%),
+    repeating-radial-gradient(circle at 50% 50%, #131313 0 1.4px, #202020 1.4px 3px);
+  background-color: #151515;
+}
+/* Static light reflection over the spinning disc (light doesn't rotate with it). */
+.or-sheen {
+  background: conic-gradient(
+    from 205deg at 50% 50%,
+    rgba(255, 255, 255, 0.16) 0deg,
+    rgba(255, 255, 255, 0) 55deg,
+    rgba(255, 255, 255, 0.05) 120deg,
+    rgba(255, 255, 255, 0) 175deg,
+    rgba(255, 255, 255, 0.14) 235deg,
+    rgba(255, 255, 255, 0) 300deg,
+    rgba(255, 255, 255, 0.16) 360deg
+  );
+}
+/* Brushed-metal tonearm tube. */
+.or-arm {
+  background: linear-gradient(90deg, #8d8d8d 0%, #d9d9d9 45%, #bdbdbd 60%, #7e7e7e 100%);
+}

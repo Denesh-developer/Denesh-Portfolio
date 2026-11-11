@@ -1,0 +1,48 @@
+{
+  "$comment": "Experience timeline. Fields: id, company, logo, role, period, kind, bullets.",
+  "roles": [
+    {
+      "id": "voltech",
+      "company": "Voltech Engineers Private Limited",
+      "logo": "",
+      "role": "System Administrator",
+      "period": "May 2026 — Present",
+      "kind": "Full-time",
+      "tags": ["Infrastructure", "Networking", "Systems"],
+      "bullets": [
+        "Overseeing enterprise IT infrastructure, server reliability, and network management across operational departments",
+        "Managing hardware troubleshooting, OS deployment, and workstation maintenance",
+        "Optimizing system uptime and IT support workflows for internal engineering teams"
+      ]
+    },
+    {
+      "id": "cheyyar-developer",
+      "company": "Community Software Projects",
+      "logo": "",
+      "role": "Full-Stack & Android Developer",
+      "period": "2024 — Present",
+      "kind": "Independent",
+      "tags": ["React.js", "Firebase", "Android Java"],
+      "bullets": [
+        "Architected and deployed CheyyarHub: hyper-local social network with Google Auth, stories, and companion Android client",
+        "Developed Cheyyar 3D Town (Namma Cheyyar): browser-based 3D multiplayer open-world game with Firebase Realtime sync",
+        "Built CheyyarBus: transit timing & route departures platform with voice search and APK with in-app update support",
+        "Engineered scalable real-time databases and storage workflows using Firestore, Cloudinary, and Supabase"
+      ]
+    },
+    {
+      "id": "adhiparasakthi",
+      "company": "Adhiparasakthi College of Arts and Science",
+      "logo": "",
+      "role": "Bachelor of Computer Applications (BCA)",
+      "period": "2022 — 2025",
+      "kind": "Education",
+      "tags": ["76% Score", "Web Design", "Symposium Winner"],
+      "bullets": [
+        "Graduated with 76% in Computer Applications",
+        "Won 1st Prize in Paper Presentation at CyberTech State Level Technical Symposium",
+        "Won 1st Prize in Web Designing at IT Meet 24 International Conference & TechFest Symposium"
+      ]
+    }
+  ]
+}

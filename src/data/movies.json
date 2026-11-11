@@ -1,0 +1,86 @@
+{
+  "_note": "EDIT THIS FILE to change your movie recommendations. Drop poster images (portrait, ~2:3) into public/assets/movies/ and point `poster` at them (e.g. /assets/movies/sacred-games.jpg). A card renders a styled placeholder if its poster is missing. `ott` must match one of the keys in OTT_BADGES in movies.ts (Netflix, Prime Video, JioHotstar, SonyLIV, Apple TV+, Theatre). `why` is your personal reason, shown beside the featured poster. Optional `url` (link to the title on the service) turns the streaming label into a 'Watch on …' button.",
+  "movies": [
+    {
+      "id": "carry-on",
+      "title": "Carry On",
+      "year": "2024",
+      "ott": "Netflix",
+      "poster": "/assets/movies/carryon.jpg",
+      "tag": "Crime · Non-Stop",
+      "why": "One TSA agent, one Christmas-morning flight, and a stranger in his ear who knows his every move. It's a pressure-cooker that never lets the clock — or your pulse — settle. Proof a thriller only needs a tight canvas, not a big one."
+    },
+    {
+      "id": "rebel-ridge",
+      "title": "Rebel Ridge",
+      "year": "2024",
+      "ott": "Netflix",
+      "poster": "/assets/movies/rebel-ridge.jpg",
+      "tag": "Crime · Drama",
+      "why": "A calm, disciplined ex-Marine takes on a whole corrupt small-town precinct — and wins with patience instead of carnage. The restraint is the thrill; every move is earned. My kind of hero: the one who refuses to lose his cool."
+    },
+    {
+      "id": "war-machine",
+      "title": "War Machine",
+      "year": "2026",
+      "ott": "Netflix",
+      "poster": "/assets/movies/war-machine.jpg",
+      "tag": "military thriller · sci-fi",
+      "why": "A hard-edged military thriller that trades spectacle for tension and keeps the stakes human even as the tech scales up. On my list for how tightly it holds the line between duty and doubt."
+    },
+    {
+      "id": "papanasam",
+      "title": "Papanasam",
+      "year": "2015",
+      "ott": "Prime Video",
+      "poster": "/assets/movies/papanasam.jpg",
+      "tag": "Thriller · Mystery · Crime ",
+      "why": "Kamal Haasan as an ordinary man out-thinking an entire investigation to shield his family. The perfect cover-up isn't the twist — the misdirection is, and it rewards a second watch. A quiet lesson in how far love will plan ahead."
+    },
+    {
+      "id": "ustad-hotel",
+      "title": "Ustad Hotel",
+      "year": "2012",
+      "ott": "JioHotstar",
+      "poster": "/assets/movies/ustad-hotel.jpg",
+      "tag": "musical · drama",
+      "why": "Not a thriller at all — a warm, soulful detour. A young would-be chef, his wise grandfather, and a glass of sulaimani that carries a whole philosophy of doing things with love. Save it for a day you need heart over adrenaline."
+    },
+    {
+      "id": "premam",
+      "title": "Premam",
+      "year": "2015",
+      "ott": "JioHotstar",
+      "poster": "/assets/movies/premam.jpg",
+      "tag": "Romance · Comedy ",
+      "why": "Love across three ages of one man's life — the school crush, the college heartbreak, the grown-up second chance. Nostalgic, funny and beautifully shot, with a soundtrack that never leaves you. The coming-of-age romance a whole generation quotes."
+    },
+    {
+      "id": "kadaisi-vivasayi",
+      "title": "Kadaisi Vivasayi",
+      "year": "2021",
+      "ott": "Prime Video",
+      "poster": "/assets/movies/kadasivivasayi.jpg",
+      "tag": "Drama · Feel Good",
+      "why": "A quiet, poetic ode to the last farmer still working the land in his village. Slow, gentle and deeply human — it makes you feel the soil and everything we lose when a way of life fades. Feel-good in the most grounded way."
+    },
+    {
+      "id": "galatta-kalyanam",
+      "title": "Galatta Kalyanam",
+      "year": "2021",
+      "ott": "JioHotstar",
+      "poster": "/assets/movies/galatta-kalyanam.jpg",
+      "tag": "Romance · Romance",
+      "why": "A breezy, glossy rom-com about a commitment-shy bachelor who finally meets someone who won't be easily won over. Light and easy — the one you put on when you just want to switch off and smile."
+    },
+    {
+      "id": "2018",
+      "title": "2018",
+      "year": "2023",
+      "ott": "JioHotstar",
+      "poster": "/assets/movies/2018.jpg",
+      "tag": "Romance · Thriller",
+      "why": "The 2018 Kerala floods seen through the ordinary people who became rescuers overnight. A gut-punch survival drama about community, courage and the quiet heroism of neighbours. It stayed with me long after the water receded."
+    }
+  ]
+}

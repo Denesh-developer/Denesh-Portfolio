@@ -1,0 +1,54 @@
+<svg width="206" height="176" viewBox="0 0 206 176" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Rotated Card Content -->
+  <g transform="translate(8.37037, 25.0118) rotate(-5.3)">
+    <!-- Dark Card Background with mint glow border -->
+    <rect width="177" height="111.755" rx="7" fill="#040806" stroke="#00FF9C" stroke-width="1.4"/>
+    
+    <!-- Matrix dots grid decorative pattern -->
+    <circle cx="158" cy="18" r="1.5" fill="#00FF9C" fill-opacity="0.5"/>
+    <circle cx="166" cy="18" r="1.5" fill="#00FF9C" fill-opacity="0.25"/>
+    <circle cx="158" cy="26" r="1.5" fill="#00FF9C" fill-opacity="0.25"/>
+
+    <!-- Top Badge -->
+    <rect x="12" y="10" width="82" height="13" rx="6.5" fill="rgba(0, 255, 156, 0.15)"/>
+    <circle cx="18" cy="16.5" r="2.5" fill="#00FF9C"/>
+    <text x="54" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="5.8" fill="#00FF9C" text-anchor="middle" letter-spacing="0.4">FEATURED PROJECT</text>
+
+    <!-- Project Title -->
+    <text x="12" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="15.5" fill="#FFFFFF" letter-spacing="-0.3">CheyyarHub</text>
+
+    <!-- Subtitle -->
+    <text x="12" y="49.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="6.8" fill="#8FA196">Hyper-Local Community &amp; Transport Portal</text>
+
+    <!-- Mini preview card / bus tracker snippet -->
+    <rect x="12" y="56" width="153" height="31" rx="4" fill="#0B1A12" stroke="rgba(0, 255, 156, 0.35)" stroke-width="0.8"/>
+    <circle cx="23" cy="71.5" r="5" fill="#00FF9C" fill-opacity="0.2"/>
+    <circle cx="23" cy="71.5" r="2.5" fill="#00FF9C"/>
+    <text x="33" y="67.5" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="6.2" fill="#E8F5EE">CheyyarBus Live Tracking</text>
+    <text x="33" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="500" font-size="5.3" fill="#8FA196">Town bus routes • Real-time timings • Local Directory</text>
+
+    <!-- Tech Stack pills -->
+    <rect x="12" y="92.5" width="37" height="12" rx="3" fill="#11251A" stroke="rgba(0, 255, 156, 0.3)" stroke-width="0.5"/>
+    <text x="30.5" y="100.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="5.5" fill="#00FF9C" text-anchor="middle">React.js</text>
+    
+    <rect x="52" y="92.5" width="35" height="12" rx="3" fill="#11251A" stroke="rgba(0, 255, 156, 0.3)" stroke-width="0.5"/>
+    <text x="69.5" y="100.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="5.5" fill="#00FF9C" text-anchor="middle">Android</text>
+    
+    <rect x="90" y="92.5" width="37" height="12" rx="3" fill="#11251A" stroke="rgba(0, 255, 156, 0.3)" stroke-width="0.5"/>
+    <text x="108.5" y="100.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="5.5" fill="#00FF9C" text-anchor="middle">Firebase</text>
+
+    <rect x="130" y="92.5" width="35" height="12" rx="3" fill="#11251A" stroke="rgba(0, 255, 156, 0.3)" stroke-width="0.5"/>
+    <text x="147.5" y="100.8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="5.5" fill="#00FF9C" text-anchor="middle">Java • PHP</text>
+  </g>
+
+  <!-- Figma 128 x 64 Pill at Bottom -->
+  <path d="M154.506 130.78L68.1082 139.584C66.1997 139.778 64.9441 141.612 65.3036 143.679L69.21 166.133C69.5695 168.2 71.4082 169.718 73.3167 169.523L159.715 160.72C161.623 160.525 162.879 158.692 162.52 156.625L158.613 134.171C158.254 132.104 156.415 130.586 154.506 130.78Z" fill="#1ABCFE"/>
+  <path d="M78.3379 145.9L76.2963 146.113L73.2551 149.028L73.6361 151.288L76.5553 148.493L76.6351 148.484L78.8753 161.776L80.9834 161.555L78.3446 145.899L78.3379 145.9ZM84.9335 161.143L94.0907 160.187L93.7489 158.158L87.4845 158.813L87.4656 158.7L89.6833 155.156C91.7421 151.994 92.2336 150.534 91.9385 148.782C91.5146 146.268 89.3671 144.527 86.7469 144.801C84.1268 145.075 82.564 147.165 83.0458 150.023L85.0475 149.814C84.757 148.131 85.5359 146.93 87.0388 146.773C88.4486 146.626 89.6912 147.494 89.9535 149.051C90.1869 150.435 89.6231 151.507 88.4271 153.444L84.6434 159.422L84.9323 161.135L84.9335 161.143ZM101.595 159.624C104.488 159.322 106.225 157.259 105.81 154.721C105.464 152.746 103.955 151.221 102.346 151.069L102.331 150.979C103.619 150.472 104.296 148.946 104.024 147.254C103.607 144.86 101.432 143.275 98.8846 143.541C96.3376 143.807 94.7359 145.787 95.1529 148.18C95.4234 149.865 96.5833 151.206 98.0216 151.429L98.0368 151.519C96.507 151.999 95.5568 153.789 95.9019 155.756C96.3162 158.294 98.6693 159.929 101.595 159.624ZM101.27 157.693C99.5276 157.875 98.255 156.949 98.0046 155.384C97.7164 153.754 98.7179 152.469 100.36 152.297C102.003 152.125 103.369 153.163 103.657 154.793C103.908 156.359 102.986 157.514 101.27 157.693ZM100.041 150.404C98.6381 150.55 97.4649 149.652 97.2272 148.162C96.9667 146.696 97.767 145.623 99.21 145.472C100.653 145.321 101.755 146.196 102.015 147.662C102.253 149.152 101.431 150.258 100.041 150.404ZM122.248 154.603L123.288 153.025L119.412 149.698L122.052 145.691L120.524 144.373L117.884 148.38L114 145.054L112.962 146.64L116.838 149.967L114.198 153.974L115.725 155.285L118.372 151.277L122.248 154.603ZM137.473 155.877C140.384 155.603 141.915 153.044 141.402 150.044C140.905 147.05 138.606 145.097 136.192 145.349C134.722 145.502 133.586 146.428 133.098 147.827L132.998 147.838C132.405 144.282 133.247 142.047 135.282 141.834C136.618 141.695 137.618 142.527 138.122 143.792L140.197 143.575C139.46 141.131 137.421 139.509 134.94 139.768C131.708 140.105 130.214 143.445 131.131 148.885C132.095 154.649 134.994 156.105 137.471 155.869L137.473 155.877ZM137.13 153.887C135.514 154.055 134.073 152.652 133.777 150.894C133.488 149.142 134.468 147.486 136.071 147.319C137.673 147.151 139.074 148.475 139.373 150.287C139.691 152.134 138.72 153.721 137.13 153.887ZM144.122 151.847L150.719 151.158L151.235 154.219L153.237 154.01L152.721 150.949L154.563 150.756L154.225 148.751L152.383 148.943L150.596 138.346L148.01 138.616L143.799 149.931L144.121 151.839L144.122 151.847ZM150.394 149.151L145.985 149.611L145.965 149.491L148.976 141.379L149.082 141.368L150.394 149.151Z" fill="#F2F2F2"/>
+
+  <!-- Figma Selection Bounding Box & Corner Handles -->
+  <path d="M13.7701 18.0225L1.42977 19.2133L2.61874 31.5343L14.9591 30.3435L13.7701 18.0225Z" fill="#040806" stroke="#1ABCFE" stroke-width="2.62" stroke-linecap="square"/>
+  <path d="M24.4163 128.968L12.076 130.159L13.2649 142.48L25.6052 141.289L24.4163 128.968Z" fill="#040806" stroke="#1ABCFE" stroke-width="2.62" stroke-linecap="square"/>
+  <path d="M189.77 1.42977L177.43 2.62061L178.619 14.9416L190.959 13.7508L189.77 1.42977Z" fill="#040806" stroke="#1ABCFE" stroke-width="2.62" stroke-linecap="square"/>
+  <path d="M201.416 110.968L189.076 112.159L190.265 124.48L202.605 123.289L201.416 110.968Z" fill="#040806" stroke="#1ABCFE" stroke-width="2.62" stroke-linecap="square"/>
+  <path d="M185.331 6.79846L7.23016 23.9851L18.102 136.648L196.203 119.461L185.331 6.79846Z" stroke="#1ABCFE" stroke-width="3.05"/>
+</svg>
